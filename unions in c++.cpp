@@ -8,8 +8,9 @@ union abc
 };
 int main(int argc, char** argv)
 {
-	union abc *var;
-	cout<<&var->a<<endl;
-	cout<<&var->value<<endl;
+	union abc var;
+	union abc *ptr= &var;
+	cout<<ptr->a<<endl;
+	cout<<ptr->value<<endl;
 	return 0;
 }
