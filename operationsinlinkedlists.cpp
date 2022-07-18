@@ -62,7 +62,7 @@ switch(option){
 void insertelement(){
 /*Inserting an element at the begining of the linked list */
 int item;
-cout<<"Enter a value to include as th head"<<endl;
+cout<<"Enter a value to include as the head"<<endl;
 cin>>item;	
 struct node * current =(struct node *)malloc(sizeof(struct node));
 current->data=item;
